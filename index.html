@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Cosmic Chai Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <i class="ri-cup-fill ri-3x icon" id="icon"></i>
+                <span class="stellarsongs">Cosmic Chais</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#history" class="nav-link">History</a></li>
+                <li><a href="#for_sale" class="nav-link">Products</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section id="email-section">
+        <h2>Sign up to access exclusive deals</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" required placeholder="enter your email address" name="email" id="email">
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+    </section>
+    <section id="features">
+        <div class="feature" id="feature">
+            <i class="ri-money-dollar-box-line ri-4x icon" id="icon"></i>
+            <div>
+                <h2>Premium Quality</h2>
+                <p>Our Chais are produced according to the highest quality standards</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-truck-line ri-4x icon" id="icon"></i>
+            <div>
+                <h2>Fast Delivery</h2>
+                <p>Our Chais are easily accessible and shipped worldwide</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-team-line ri-4x icon" id="icon""></i>
+
+            <div>
+                <h2>Small Farms</h2>
+                <p>Our Chais are grown by small cooperative farms where workers are paid a fair wage</p>
+            </div>
+        </div>
+    </section>
+    <section id=" chai-imgs">
+                <div class="row">
+                    <div class="column">
+                        <img id="cup2"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFLkwR2PCnAka5sY_kMqQkxfpD1Vh6UjF9Zg&s"
+                            alt="cup of chai brew">
+                    </div>
+                    <div class="column">
+                        <img id="cupchai"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQckUefH27nbqtpKTnbVk_cAstzsfI6j1Krcw&s"
+                            alt="chai tea cup">
+                    </div>
+                </div>
+    </section>
+    <section id="history">
+        <iframe id="video" src="https://www.youtube.com/embed/p0pUU74CMqY"
+            title="What is Chai? | Origins of Chai &amp; How to make Chai" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="for_sale">
+        <h2>For Sale</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="image product1"></div>
+                <div class="inner-card">
+                    <div class="artist">Masala Chai</div>
+                    <p class="content">A loose leaf blend of traditional, full-bodied Indian black tea and exotic spices
+                        to truly satisfy the senses. This fusion including cardamom, cinnamon, cloves and ginger creates
+                        a lively and aromatic tea.</p>
+                    <label for="dropdown">Organic Loose leaf
+                        <select id="dropdown" name="dropdown">
+                            <option value="">(select one)</option>
+                            <option value="1">(1/4 lb) $15.99</option>
+                            <option value="2">(1/2 lb) $30.99</option>
+                            <option value="3">(1 lb) $59.99</option>
+                        </select>
+                    </label>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add To Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image product2"></div>
+                <div class="inner-card">
+                    <div class="artist">Ginger Chai Organic Loose Leaf</div>
+
+                    <p class="content">Ginger Chai is a masala of organic herbs, ginger and aromatic spices with a base
+                        of organic black tea, creating a bold and spicy base and a refreshing, gingery finish.</p>
+                    <label for="dropdown">Organic Loose leaf
+                        <select id="dropdown" name="dropdown">
+                            <option value="">(select one)</option>
+                            <option value="1">(1/4 lb) $14.99</option>
+                            <option value="2">(1/2 lb) $28.99</option>
+                            <option value="3">(1 lb) $55.99</option>
+                        </select>
+                    </label>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add To Cart</p>
+                    </button>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="image product3"></div>
+                <div class="inner-card">
+                    <div class="artist">Kashmiri Kahwa loose leaf Green Tea</div>
+                    <p class="content">Kashmiri Kahwa loose leaf Green Tea. A blend of Liquorice, Ginger, Cloves,
+                        Cardamom, Nutmeg, Black Pepper, Almonds & Saffron with a base of Green Tea.</p>
+                    <label id="price" for="dropdown">Organic Loose leaf
+                        <select id="dropdown" name="dropdown">
+                            <option value="">(select one)</option>
+                            <option value="1">(1/4 lb) $14.99</option>
+                            <option value="2">(1/2 lb) $28.99</option>
+                            <option value="3">(1 lb) $55.99</option>
+                        </select>
+                    </label>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add To Cart</p>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
